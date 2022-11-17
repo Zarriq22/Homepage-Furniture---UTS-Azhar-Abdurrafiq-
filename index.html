@@ -37,7 +37,7 @@
     <!-- Form Registrasi -->
     <form class="popup h-screen w-full fixed left-100% top-100% flex justify-center items-center bg-cyan-900 bg-opacity-[80%] hidden z-30 font-serif">
         <div class="absolute bottom-[110px] bg-white rounded shadow-lg w-[50%] h-[85%] sm:w-[75%] ">
-            <h1 class="font-bold flex justify-center border-b-4 shadow-xl py-5 text-5xl bg-gradient-to-b from-blue-500 bg-cyan-400">Order Now</h1>
+            <h1 class="font-bold flex justify-center border-b-4 shadow-xl py-5 text-5xl bg-gradient-to-b from-blue-500 bg-cyan-400">Order <span class="text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 via-red-500 to-zinc-500">Here</span></h1>
             <div class="border-b shadow-lg px-10 py-2 flex justify-center items-center bg-gradient-to-r from-cyan-500 to-blue-500 sm:py-10 sm:px-0">
                 <table class="">
                     <tr class="sm:text-xl sm:py-10 sm:px-2">
@@ -79,7 +79,7 @@
         </div>
     </form>
     <!-- Order Berhasil -->
-    <div class="subPopup h-screen w-full fixed left-100% top-100% flex justify-center items-center hidden z-40 font-serif">
+    <div class="subPopup h-screen w-full fixed left-100% top-100% flex justify-center items-center bg-cyan-900 bg-opacity-[80%] hidden z-40 font-serif">
         <div class="subPopup absolute top-[37%] bg-black">
             <div class="relative"> 
                 <button class="btn text-white absolute right-4 top-3 text-xl ">
@@ -320,12 +320,17 @@
         <!-- Our Best Seller Product - End -->
 
         <!-- Simple Woodem Table - Start -->
-        <div class="flex justify-between items-center py-10 gap-10 sm:gap-3 xl:gap-7">
+        <div class="flex justify-between items-center py-10  gap-10 sm:gap-3 xl:gap-7">
             <div class="w-[55%]">
-                <img src="simple.png" alt="" class="w-full">
+                <img src="simple.png" alt="" class="w-full h-full">
+                <div class="flex justify-center items-center gap-2 py-2">
+                    <button class="text-sm"><input type="radio" name="radio1"></button>
+                    <button class="text-sm"><input type="radio" name="radio1"></button>
+                    <button class="text-sm"><input type="radio" name="radio1"></button>
+                </div>
             </div>
             <div class="w-1/2">
-                <h1 class="font-bold text-6xl py-10 sm:text-xl sm:py-4 md:text-2xl lg:text-4xl xl:text-5xl xl:py-10">Simpe Woodem Tabel</h1>
+                <h1 class="font-bold text-6xl pb-10 sm:text-xl sm:pb-4 md:text-2xl lg:text-4xl xl:text-5xl xl:pb-10">Simpe Woodem Tabel</h1>
                 <p class="text-slate-500 text-justify sm:text-[11px] md:text-[13px] lg:text-[18px] xl:text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, enim. Quia quidem, laboriosam quibusdam recusandae nisi dolorum reprehenderit quis, neque perferendis explicabo vel maiores sunt beatae incidunt cupiditate enim eos?</p>
                 <div class="flex justify-between items-center py-10 sm:py-4 xl:py-10">
                     <button class="regis bg-black text-white py-2 px-7 hover:bg-cyan-500 sm:py-1 sm:px-3 sm:text-sm md:text-md md:py-2 md:px-4 lg:text-lg lg:py-2 lg:px-5 xl:text-xl xl:py-2 xl:px-7">Buy Now</button>
